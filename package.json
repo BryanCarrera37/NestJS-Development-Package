@@ -1,11 +1,12 @@
 {
-  "name": "nestjs-development-package",
-  "version": "1.0.0",
+  "name": "@bryancm/nestjs-development-package",
+  "version": "1.0.1",
   "description": "This is a library that can be used in your projects to perform common actions using helpers, interfaces, etc",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rm -rf dist && tsc && sh copy-files.sh"
+    "build": "rm -rf dist && tsc && sh copy-files.sh",
+    "publish": "cd dist/ && npm publish --access public"
   },
   "keywords": [
     "package",
@@ -13,6 +14,10 @@
     "development kit",
     "development package"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BryanCarrera37/NestJS-Development-Package"
+  },
   "author": {
     "name": "Bryan Carrera",
     "email": "bc00932@gmail.com"
