@@ -61,5 +61,6 @@ In this library you can find:
 
 - Const Values
 - Contracts (Interfaces)
+- DTOs
 - Helpers (Date, String, Object, Array, Environment, etc)
 - Pipes
