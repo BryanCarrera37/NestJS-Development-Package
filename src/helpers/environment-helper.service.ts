@@ -1,5 +1,5 @@
 import { Injectable, InternalServerErrorException } from "@nestjs/common";
-import { EnvKeys, EnvValues } from "../const-values/env";
+import { EnvKeys, EnvPlatforms } from "../const-values/env";
 import { FileHelperService } from "./file-helper.service";
 import { parse } from "dotenv";
 
@@ -35,7 +35,7 @@ export class EnvironmentHelperService {
      */
     isInProduction(): boolean {
         try {
-            return this.getString(EnvKeys.ENVIRONMENT) === EnvValues.PRODUCTION;
+            return this.getString(EnvKeys.ENVIRONMENT) === EnvPlatforms.PRODUCTION;
         }
         catch (ex) { throw ex; }
     }

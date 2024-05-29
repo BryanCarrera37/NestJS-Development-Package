@@ -1,5 +1,5 @@
 import { Injectable } from "@nestjs/common";
-import { InsertResult, UpdateResult } from "typeorm";
+import { DeleteResult, InsertResult, UpdateResult } from "typeorm";
 
 @Injectable()
 export class DatabaseResultHelperService {
@@ -17,5 +17,9 @@ export class DatabaseResultHelperService {
 
     wasNotUpdated(modificationResult: UpdateResult) {
         return (!modificationResult) || modificationResult.affected <= 0;
+    }
+
+    wasNotDeleted(result: DeleteResult): boolean {
+        return result == undefined || result.affected <= 0;
     }
 }

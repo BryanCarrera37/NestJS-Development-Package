@@ -1,12 +1,11 @@
-import { ArrayHelperService, DatabaseResultHelperService, DateHelperService, EnvironmentHelperService, NumericHelperService, ObjectHelperService, StringHelperService, ValuesHelperService } from "./helpers";
+import { ArrayHelperService, DatabaseResultHelperService, DateHelperService, EnvironmentHelperService, FileHelperService, NumericHelperService, ObjectHelperService, StringHelperService, ValuesHelperService } from "./helpers";
 
 export const PROVIDERS = [
     ArrayHelperService,
     DatabaseResultHelperService,
     DateHelperService,
     EnvironmentHelperService,
-    NumericHelperService,
-    ObjectHelperService,
+    FileHelperService,
     NumericHelperService,
     ObjectHelperService,
     StringHelperService,

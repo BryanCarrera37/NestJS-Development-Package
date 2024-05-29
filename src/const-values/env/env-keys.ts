@@ -1,3 +1,4 @@
 export const EnvKeys = {
     ENVIRONMENT: 'ENVIRONMENT',
+    JWT_SECRET_KEY: 'JWT_SECRET_KEY'
 }

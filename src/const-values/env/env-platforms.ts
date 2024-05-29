@@ -1,4 +1,4 @@
-export const EnvValues = {
+export const EnvPlatforms = {
     DEVELOPMENT: 'development',
     PRODUCTION: 'production'
 }

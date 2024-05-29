@@ -5,7 +5,7 @@ This is a library that can be used in your projects to perform common actions ac
 
 ## Instructions
 
-### Install
+### Installation
 ```sh
 $ npm install @bryancm/nestjs-development-package
 ```
