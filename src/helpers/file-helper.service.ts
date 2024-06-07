@@ -8,7 +8,7 @@ export class FileHelperService {
 
     read(path: string): string {
         if(!fs.existsSync(path)) {
-            throw new NotFoundException(`Unable to find file to be removed: ${path}`);
+            throw new NotFoundException(`Unable to find file to be read: ${path}`);
         }
 
         const buffer = fs.readFileSync(path);
