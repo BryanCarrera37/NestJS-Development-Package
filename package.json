@@ -1,6 +1,6 @@
 {
   "name": "@bryancm/nestjs-development-package",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "This is a library that can be used in your projects to perform common actions using helpers, interfaces, etc",
   "main": "index.js",
   "scripts": {

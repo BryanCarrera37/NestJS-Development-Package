@@ -64,3 +64,4 @@ In this library you can find:
 - DTOs
 - Helpers (Date, String, Object, Array, Environment, etc)
 - Pipes
+- Services (Database Connections and API Integrations)
