@@ -1,5 +1,5 @@
 import { Logger } from "@nestjs/common";
-import { DatabaseResultHelperService, EnvironmentHelperService } from "src/helpers";
+import { DatabaseResultHelperService, EnvironmentHelperService } from "../../helpers";
 import { DataSource } from "typeorm";
 
 export abstract class ConnectionService {
