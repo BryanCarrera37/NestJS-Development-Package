@@ -6,7 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rm -rf dist && tsc && sh copy-files.sh",
-    "publish": "cd dist/ && yarn publish"
+    "publish:npm": "yarn --cwd ./dist/ publish",
+    "version:patch": "npm version patch -m \"chore: bump version to %s\"",
+    "version:minor": "npm version minor -m \"feat: bump version to %s\"",
+    "version:major": "npm version major -m \"BREAKING CHANGE: bump version to %s\""
   },
   "keywords": [
     "nest",

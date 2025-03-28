@@ -1,6 +1,7 @@
 export * from './array-helper.service';
 export * from './database-result-helper.service';
 export * from './date-helper.service';
+export * from './email-helper.service';
 export * from './environment-helper.service';
 export * from './file-helper.service';
 export * from './numeric-helper.service';
